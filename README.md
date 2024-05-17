@@ -1,8 +1,10 @@
-**Timetable Scheduling Problem using Genetic Algorithms**
+# Timetable Scheduling Problem using Genetic Algorithms
 
 **Project Description:**
 
 Timetable scheduling is a critical task in university environments, ensuring efficient allocation of resources while minimizing conflicts between classes, professors, and rooms. This project addresses this classical problem using genetic algorithms, where time slots are assigned to each section, professor, and room for teaching courses.
+
+---
 
 **Constraints:**
 
@@ -28,13 +30,20 @@ Timetable scheduling is a critical task in university environments, ensuring eff
 - Chromosomes are binary encoded with course, type, section, professor, lecture details, and room information.
 - Fitness function is based on the inverse sum of conflicts/clashes.
 
+---
+
 **Foundational Code:**
 
 The provided code implements the classical genetic algorithms' cycle, including reproduction, crossover, and mutation. It uses tournament selection, crossover, and mutation operators to generate the next generation of solutions.
 
+---
+
 **Readme File:**
 
 Please refer to the [project report](Project_Report) for detailed implementation, code, and results.
+
+---
+
 
 **Conclusion:**
 
